@@ -1,0 +1,17 @@
+HTML guidelines 
+We must sort components based on their usage and put them in correct orther(top to bottom/ header to footer)
+We also must put them in correct wrappers (div/span/main/nav), and correctly group them, so its easier to work on them.
+When making the components give them classes name that describe the element itself and point to its purpouse.
+In the head of the HTML is where the external links for fonts,logos,icons or other libraries with builit-in components are put, but before them we link the css files
+in order the styles to load first, cause they are the important thing on the website.We also need to keep in mind that the more outside elements make 
+the loading of the site slower.Also libraries like bootstrap have built-in classes that add styles on their own, so we can check them out before we
+put styles of our own.In the head stay things like links to other pages on the website or navigation bars, logos and name of the site etc.
+In the body we put the main content of app(text,graphs,tables,images,videos etc.)Each of the components can be build with several elements in it like
+(submit button,dropdown menu,searchbar,checkbox) that wait for an event (being clicked on them, hover etc) to make the component do its job.
+We could link images that we want to use on the site internal or external.Internal by linking them with URL , external by putting them in a folder in the
+project folder so we can accses them easily(naming them with names that point where we want to use them like background-Img-HomePage).
+The footer is at the bottom of app nad usually holds the social media icons + links,copyrights,contacts etc.The javascript scripts are linked in the footer,
+to make sure the page loads correctly(javascript files are bigger than the css/fonts) and in order to work properly,because we dont need the the functionality
+that the scripts bring until the whole page is loaded.
+We can add the components section by section and work on their styles/spacing compared to each other and compared to the window, and after that we continue with 
+the next section(example : first creating the top navBar + logo + dropdown menu that are stored in the head, add the styles the spacing and then move to the body).
