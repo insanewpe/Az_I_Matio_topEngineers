@@ -15,3 +15,19 @@ to make sure the page loads correctly(javascript files are bigger than the css/f
 that the scripts bring until the whole page is loaded.
 We can add the components section by section and work on their styles/spacing compared to each other and compared to the window, and after that we continue with 
 the next section(example : first creating the top navBar + logo + dropdown menu that are stored in the head, add the styles the spacing and then move to the body).
+
+
+Some useful HTML5 hyperlink/link tips: 
+1. If you want to access to an image in a different folder use:
+<a href="(name of the folder)(/)(image name)">Text that will lead you to image</a>
+2. If you want to make a link that will download an image, which is in a different folder, use:
+<a href="(name of the folder)(/)(image name)" download>Text that you click in order to start downloading image</a>
+3. If you want to have a link that will transport you to a specific section on the html page, put an id property to the el ypu want to transport to and use:
+<a href="(#)(specific section id)">Text that will lead you to section</a>
+4. If you want the user to open the link in a different tab use (_blank):
+<a href="примерно: https://google.com" target="_blank>Text that will lead you to примено:google</a>
+5. If you want to have a link that will lead the user directly to his email(something like a contact menu):
+<a href="mailto:(your email addres)">Text that will lead the user to his email</a>
+
+Some useful CSS tips:
+1. If you want to make the image round you need to make the 'width' property 2 times bigger than the 'border-radius' property of the stylesheet doc.
