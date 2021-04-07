@@ -32,3 +32,4 @@ Some useful HTML5 hyperlink/link tips:
 Some useful CSS tips:
 1. If you want to make the image round you need to make the 'width' property 2 times bigger than the 'border-radius' property of the stylesheet doc.
 2. 
+3.
